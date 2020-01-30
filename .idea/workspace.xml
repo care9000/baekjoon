@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06337991-14b1-402c-96de-3291247a3769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14499/14499_주사위_굴리기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14499/14499_주사위_굴리기.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15684/15684_사다리_조작.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15684/15684_사다리_조작.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="06337991-14b1-402c-96de-3291247a3769" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
