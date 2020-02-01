@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06337991-14b1-402c-96de-3291247a3769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/17135/17135_캐슬디펜스.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17136/17136_색종이_붙이기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17136/17136_색종이_붙이기.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2823/2823_유턴_싫어.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2823/2823_유턴_싫어.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17135/17135_캐슬_디펜스.txt" beforeDir="false" afterPath="$PROJECT_DIR$/17135/17135_캐슬_디펜스.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2823/2823_유턴_싫어.py" beforeDir="false" afterPath="$PROJECT_DIR$/2823/2823_유턴_싫어.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2823/2823_유턴_싫어.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2823/2823_유턴_싫어.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +28,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17136_색종이_붙이기">
+  <component name="RunManager" selected="Python.2823_유턴_싫어">
     <configuration name="14499_주사위_굴리기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,9 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2823_유턴_싫어" />
         <item itemvalue="Python.17136_색종이_붙이기" />
         <item itemvalue="Python.17135_캐슬디펜스" />
-        <item itemvalue="Python.2823_유턴_싫어" />
         <item itemvalue="Python.15684_사다리_조작" />
         <item itemvalue="Python.14499_주사위_굴리기" />
       </list>

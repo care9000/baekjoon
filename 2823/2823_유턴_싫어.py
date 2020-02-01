@@ -1,70 +1,38 @@
 import sys
 sys.stdin = open('2823_유턴_싫어.txt')
 
-def dfs(i, j, dir):
-    global flag
-    if flag == 1:
-        return
 
+def check(i, j):
+    cnt = 0
     for k in range(4):
-        if dir == -1:
-            nx = i + dx[k]
-            ny = j + dy[k]
-            if ispass(nx, ny) and visited[nx][ny] == 0 and mini_map[nx][ny] != 'X':
-                visited[nx][ny] = 1
-                if nx == road[0] and ny == road[1]:
-                    flag = 1
-                    return
-                dfs(nx, ny, k)
-                visited[nx][ny] = 0
-
-        else:
-            if (dir + 2) % 4 != k:
-                nx = i + dx[k]
-                ny = j + dy[k]
-                if ispass(nx, ny) and visited[nx][ny] == 0 and mini_map[nx][ny] != 'X':
-
-                    visited[nx][ny] = 1
-                    if nx == road[0] and ny == road[1]:
-                        flag = 1
-                        return
-
-                    dfs(nx, ny, k)
-                    visited[nx][ny] = 0
-
+        nx = i + dx[k]
+        ny = j + dy[k]
+        if ispass(nx, ny):
+            cnt += 1
+    if cnt == 1:
+        return False
+    return True
 
 def ispass(i, j):
-    if -1 < i < R and -1 < j < C:
+    if -1 < i < R and -1 < j < C and mini_map[i][j] == '.':
         return True
-
     return False
 
-# 북 동 남 서
-dx = [-1, 0, 1, 0]
-dy = [0, 1, 0, -1]
+dx = [-1, 1, 0, 0]
+dy = [0, 0, -1, 1]
 
 R, C = map(int, sys.stdin.readline().split())
+
 mini_map = [input() for _ in range(R)]
-buildings = []
-roads = []
+
+flag = 0
 for i in range(R):
     for j in range(C):
-        if mini_map[i][j] == 'X':
-            buildings.append([i, j])
-        else:
-            roads.append([i, j])
-result = 0
+        if mini_map[i][j] == '.':
+            if check(i, j):
+                pass
+            else:
 
-for road in roads:
-    flag = 0
-    visited = [[0 for _ in range(C)] for _ in range(R)]
-    dfs(road[0], road[1], -1)
+                flag = 1
 
-    if flag == 1:
-        pass
-    else:
-
-        result = 1
-        break
-
-print(result)
+print(flag)
