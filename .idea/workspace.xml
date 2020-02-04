@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06337991-14b1-402c-96de-3291247a3769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2933/2933_미네랄.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2933/2933_미네랄.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17281/17281_야구.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17281/17281_야구.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3425/3425_고스택.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3425/3425_고스택.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3678/3678_카탄의_개척자.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3678/3678_카탄의_개척자.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15684/15684_사다리_조작.py" beforeDir="false" afterPath="$PROJECT_DIR$/15684/15684_사다리_조작.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15684/15684_사다리_조작.txt" beforeDir="false" afterPath="$PROJECT_DIR$/15684/15684_사다리_조작.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +20,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1X48F4jmYvDcaeTzmHuCXTWMVJF" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\park\baekjoon\17281" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -30,8 +37,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2933_미네랄">
-    <configuration name="15684_사다리_조작" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.17281_야구 (1)">
+    <configuration name="17281_야구 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -39,11 +46,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15684" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17281" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15684/15684_사다리_조작.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17281/17281_야구.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -52,7 +59,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1937_욕심쟁이_판다" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="17281_야구" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,53 +67,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1937" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1937/1937_욕심쟁이_판다.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2513_회전 초밥" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="baekjoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2531" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2531/2513_회전 초밥.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2823_유턴_싫어" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="baekjoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2823" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2823/2823_유턴_싫어.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\park\baekjoon\17281\17281_야구.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,13 +101,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="3425_고스택" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="baekjoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3425" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3425/3425_고스택.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3678_카탄의_개척자" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="baekjoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3678" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3678/3678_카탄의_개척자.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17281_야구 (1)" />
+        <item itemvalue="Python.17281_야구" />
+        <item itemvalue="Python.3425_고스택" />
+        <item itemvalue="Python.3678_카탄의_개척자" />
         <item itemvalue="Python.2933_미네랄" />
-        <item itemvalue="Python.15684_사다리_조작" />
-        <item itemvalue="Python.2513_회전 초밥" />
-        <item itemvalue="Python.1937_욕심쟁이_판다" />
-        <item itemvalue="Python.2823_유턴_싫어" />
       </list>
     </recent_temporary>
   </component>
