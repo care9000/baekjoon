@@ -7,32 +7,129 @@
 
 ---
 
-성을 적에게서 지키기 위해 궁수 3명을 배치하려고 한다. 궁수는 성이 있는 칸에 배치할 수 있고, 하나의 칸에는 최대 1명의 궁수만 있을 수 있다. 각각의 턴마다 궁수는 적 하나를 공격할 수 있고, 모든 궁수는 동시에 공격한다. 궁수가 공격하는 적은 거리가 D이하인 적 중에서 가장 가까운 적이고, 그러한 적이 여럿일 경우에는 가장 왼쪽에 있는 적을 공격한다. 같은 적이 여러 궁수에게 공격당할 수 있다. 공격받은 적은 게임에서 제외된다. 궁수의 공격이 끝나면, 적이 이동한다. 적은 아래로 한 칸 이동하며, 성이 있는 칸으로 이동한 경우에는 게임에서 제외된다. 모든 적이 격자판에서 제외되면 게임이 끝난다. 
+총 8개의 톱니를 가지고 있는 톱니바퀴 4개가 아래 그림과 같이 일렬로 놓여져 있다. 또, 톱니는 N극 또는 S극 중 하나를 나타내고 있다. 톱니바퀴에는 번호가 매겨져 있는데, 가장 왼쪽 톱니바퀴가 1번, 그 오른쪽은 2번, 그 오른쪽은 3번, 가장 오른쪽 톱니바퀴는 4번이다.
+
+니바퀴의 초기 상태와 톱니바퀴를 회전시킨 방법이 주어졌을 때, 최종 톱니바퀴의 상태를 구하는 프로그램을 작성하시오.
 
 ## 구현방법
 
 ---
 
-미니맵에 적을 배치후 궁수가 쏠 수 있는 몬스터 중에서 가장 왼쪽에 있는 적을 선택후
+톱니의 위치를 list가 아닌 deque으로 받음(왜냐면 처음것을 뺴고 처음에 추가하기 좋기 때문에)
 
-다선택 된다음에 삭제하고 뒤에있는 적들을 한칸 씩 앞으로 떙겨옴
+앞의 [2]와 뒤의 [6]를 비교하여 연결 되어있는지 확인.
 
-그리고 만약 적이 없을땐, 함수를 끝내는 식으로 표현하였습니다.
+그리고 회전시킨다.
 
- 
+ 그리고 시계방향 회전이면 마지막것을 뺴서 처음에 넣어줌
+
+반시계방향이면 처음것을 뺴서 마지막에 넣어줌
 
 ## 결과
 
 ---
 
-1008ms(3try)
+76ms(3try)
 
-1시간 반
+1시간
 
 ## 회고
 
 ---
 
-전에 풀었던 문제였지만 다시플게되니 했갈리는 부분도 많이잇었지만
+전에 풀었던 문제였지만 다시플게되니 했갈리는 부분도 많았다.
 
-주어진 조건을 활용하니 쉽게 해결 할 수 있었다.
+먼저 connent리스트를 초기화 하지않아 틀리게 되었고 
+
+두번째로 그초기화 하지 않은 부분을 늦게 깨달았다.
+
+시험이였으면 넌이미 나가리엿겟지,,ㅠㅠ
+
+집중좀하자.. 시험얼마 안남았다.
+
+처음에 진짜 그지같이 풀었다.
+
+```python
+from collections import deque
+T = int(input())
+for tc in range(1, T + 1):
+    N = int(input())
+    magnet = [deque(map(int , input().split())) for _ in range(4)]
+    info = [list(map(int, input().split())) for _ in range(N)]
+    for i in range(len(info)):
+        info[i][0] -= 1
+    location = [0] * 4
+    connect = [0 for _ in range(3)]
+    for i in range(len(magnet) - 1):
+        if magnet[i][2] != magnet[i + 1][6]:
+            connect[i] = 1
+    for cnt in range(len(info)):
+        if info[cnt][1] == 1:
+            tem = magnet[info[cnt][0]].pop()
+            magnet[info[cnt][0]].appendleft(tem)
+            mini = 0
+            for i in range(info[cnt][0] -1, -1, -1):
+                mini += 1
+                if connect[i] == 1:
+                    if info[cnt][1] * (-1) ** mini == 1:
+                        tem = magnet[i].pop()
+                        magnet[i].appendleft(tem)
+                    else:
+                        tem = magnet[i].popleft()
+                        magnet[i].append(tem)
+                else:
+                    break
+            mini = 0
+            for i in range(info[cnt][0], 3):
+                mini += 1
+                if connect[i] == 1:
+                    if info[cnt][1] * (-1) ** mini == 1:
+                        tem = magnet[i + 1].pop()
+                        magnet[i + 1].appendleft(tem)
+                    else:
+                        tem = magnet[i + 1].popleft()
+                        magnet[i + 1].append(tem)
+                else:
+                    break
+        else:
+            tem = magnet[info[cnt][0]].popleft()
+            magnet[info[cnt][0]].append(tem)
+            mini = 0
+            for i in range(info[cnt][0] -1, -1, -1):
+                mini += 1
+                if connect[i] == 1:
+                    if info[cnt][1] * (-1) ** mini == 1:
+                        tem = magnet[i].pop()
+                        magnet[i].appendleft(tem)
+                    else:
+                        tem = magnet[i].popleft()
+                        magnet[i].append(tem)
+                else:
+                    break
+            mini = 0
+            for i in range(info[cnt][0], 3):
+                mini += 1
+                if connect[i] == 1:
+                    if info[cnt][1] * (-1) ** mini == 1:
+                        tem = magnet[i + 1].pop()
+                        magnet[i + 1].appendleft(tem)
+                    else:
+                        tem = magnet[i + 1].popleft()
+                        magnet[i + 1].append(tem)
+                else:
+                    break
+        for i in range(len(magnet) - 1):
+            if magnet[i][2] != magnet[i + 1][6]:
+                connect[i] = 1
+            else:
+                connect[i] = 0
+        # [print(magnet[i]) for i in range(len(magnet))]
+        # print(connect)
+    score = 0
+    for i in range(len(magnet)):
+        if magnet[i][0] == 1:
+            score += 2 ** i
+    print("#{} {}".format(tc,score))
+
+```
+
