@@ -52,14 +52,11 @@ def Perm(n, m):
         return
 
     if n == m:
-        print(positions)
+        positions[3], positions[0] = positions[0], positions[3]
         simulation(0, 0, 0)
-    elif m == 3:
-        Perm(n, m + 1)
 
     else:
         for k in range(m, n):
-            if k != 3:
                 positions[m], positions[k] = positions[k], positions[m]
                 Perm(n, m + 1)
                 positions[m], positions[k] = positions[k], positions[m]
@@ -67,11 +64,9 @@ def Perm(n, m):
 N = int(input())
 pre_score = [list(map(int, input().split())) for _ in range(N)]
 positions = [i for i in range(9)]
-positions[0], positions[3] = positions[3], positions[0]
-data = list(itertools.permutations(positions))
-print(list(data))
+
 maximum = N * 8 * 3
 max_score = 0
 
-# Perm(9, 0)
-# print(max_score)
+Perm(9, 1)
+print(max_score)
