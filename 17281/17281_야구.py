@@ -1,72 +1,46 @@
 import sys
-sys.stdin = open('17281_야구.txt')
 import itertools
-
-def simulation(num, inning, score):
-    global max_score
-
-    if inning == N:
-        if score > max_score:
-
-            max_score = score
-        return
-
-    if max_score > score + (8 * 3) * (N - inning):
-
-        return
-
-    base = [0, 0, 0, 0, 0]
-    out = 0
-    while out < 3:
-        num %= 9
-        if pre_score[inning][positions[num]] == 0:
-            out += 1
-
-        else:
-            move = pre_score[inning][positions[num]]
-            if move == 4:
-                score += 1
-
-            for k in range(3, 0, -1):
-                if base[k]:
-                    if k + move >= 4:
-                        score += 1
-                        base[k] = 0
-                    else:
-                        base[k + move] = 1
-                        base[k] = 0
-
-            if move != 4:
-                base[move] = 1
-        num += 1
-    simulation(num, inning + 1, score)
+sys.stdin = open('17281_야구.txt')
 
 
+def simulation(batting):
+    score = 0
+    num = 0
+    for inning in pre_score:
+        out = 0
+        b1, b2, b3 = 0, 0, 0
+        while out < 3:
+            if inning[batting[num]] == 0:
+                out += 1
+            elif inning[batting[num]] == 1:
+                score += b3
+                b3, b2, b1 = b2, b1, 1
 
+            elif inning[batting[num]] == 2:
+                score += b3 + b2
+                b1, b2, b3 = 0, 1, b1
 
+            elif inning[batting[num]] == 3:
+                score += b3 + b2 + b1
+                b1, b2, b3 = 0, 0, 1
 
+            elif inning[batting[num]] == 4:
+                score += 1 + b1 + b3 + b2
+                b1, b2, b3 = 0, 0, 0
 
-def Perm(n, m):
-    global max_score, maximum
-    if max_score == maximum:
-        return
+            num = (num + 1) % 9
+    return score
 
-    if n == m:
-        positions[3], positions[0] = positions[0], positions[3]
-        simulation(0, 0, 0)
-
-    else:
-        for k in range(m, n):
-                positions[m], positions[k] = positions[k], positions[m]
-                Perm(n, m + 1)
-                positions[m], positions[k] = positions[k], positions[m]
 
 N = int(input())
-pre_score = [list(map(int, input().split())) for _ in range(N)]
-positions = [i for i in range(9)]
+pre_score = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
 
 maximum = N * 8 * 3
 max_score = 0
+ans = 0
 
-Perm(9, 1)
-print(max_score)
+for number in itertools.permutations(range(1, 9), 8):
+    batting = list(number[:3]) + [0] + list(number[3:])
+    ans = max(ans, simulation(batting))
+
+print(ans)
