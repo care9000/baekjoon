@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06337991-14b1-402c-96de-3291247a3769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13459/13459_구슬_탈출.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13459/13459_구슬_탈출.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14890/14890_경사로.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14890/14890_경사로.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13459/13459_구슬_탈출.py" beforeDir="false" afterPath="$PROJECT_DIR$/13459/13459_구슬_탈출.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +33,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.14890_경사로">
+  <component name="RunManager" selected="Python.13459_구슬_탈출">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.14890_경사로" />
         <item itemvalue="Python.13459_구슬_탈출" />
+        <item itemvalue="Python.14890_경사로" />
         <item itemvalue="Python.1922_네트워크_연결" />
         <item itemvalue="Python.17144_미세먼지_안녕!" />
         <item itemvalue="Python.1" />
@@ -204,6 +201,7 @@
         <watch expression="mini_map[j - k][i]" language="Python" />
         <watch expression="vis[j - k]" language="Python" />
         <watch expression="i" language="Python" />
+        <watch expression="j + k" language="Python" />
       </configuration>
     </watches-manager>
   </component>
