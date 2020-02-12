@@ -75,14 +75,16 @@ def vertical_simulation(i):
 
 def is_down(i, j, vis):
     for k in range(1, L):
+        # L만큼 경사로의 길이가 값들과 같아야 경사로를 설치 할 수 있음.
         if j + k < N and mini_map[i][j] == mini_map[i][j + k] and vis[j + k] == 0:
             pass
         else:
             return False
-
+    # 그다음 것은 그경사로보다 값이 크면 안됨.
     if j + L == N or mini_map[i][j + L] <= mini_map[i][j]:
         return True
     return False
+
 
 def is_down2(i, j, vis):
     for k in range(1, L):
@@ -97,12 +99,13 @@ def is_down2(i, j, vis):
 
 
 def is_up(i, j, vis):
+    # L만큼 경사로의 길이가 값들과 같아야 경사로를 설치 할 수 있음.
     for k in range(1, L):
         if j - k > -1 and mini_map[i][j] == mini_map[i][j - k] and vis[j - k] == 0:
             pass
         else:
             return False
-
+    # 그다음 것은 그경사로보다 값이 작으면 안됨.
     if j - L < 0 or mini_map[i][j - L] <= mini_map[i][j]:
         return True
     return False
@@ -127,7 +130,6 @@ mini_map = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
 result = 0
 for i in range(N):
     horizontal_simulaion(i)
-
     vertical_simulation(i)
 
 print(result)
