@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06337991-14b1-402c-96de-3291247a3769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/17837/17837_새로운_게임.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17837/17837_새로운_게임.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13458/13458_시험_감독.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13458/13458_시험_감독.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2151/2151_거울_설치.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2151/2151_거울_설치.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14890/14890_경사로.py" beforeDir="false" afterPath="$PROJECT_DIR$/14890/14890_경사로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17837/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/17837/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="baekjoon" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,7 +40,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17837_새로운_게임">
+  <component name="RunManager" selected="Python.13458_시험_감독">
+    <configuration name="13458_시험_감독" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="baekjoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13458" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13458/13458_시험_감독.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="13459_구슬_탈출" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,27 +104,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17144_미세먼지_안녕!" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="baekjoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17144" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17144/17144_미세먼지_안녕!.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="17837_새로운_게임" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1922_네트워크_연결" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2151_거울_설치" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1922" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2151" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1922/1922_네트워크_연결.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2151/2151_거울_설치.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.13458_시험_감독" />
+        <item itemvalue="Python.2151_거울_설치" />
         <item itemvalue="Python.17837_새로운_게임" />
         <item itemvalue="Python.13459_구슬_탈출" />
         <item itemvalue="Python.14890_경사로" />
-        <item itemvalue="Python.1922_네트워크_연결" />
-        <item itemvalue="Python.17144_미세먼지_안녕!" />
       </list>
     </recent_temporary>
   </component>
