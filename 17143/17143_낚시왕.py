@@ -7,10 +7,10 @@ def simulation():
     location = 0
     while location < C:
         location += 1
+        # 잡은 상어의 크기를 추가해 주자
         catch += catch_simulation(location)
+        # 상어 이동 시키자
         move_simulation()
-        # [print(mini_map[i]) for i in range(1, R + 1)]
-        # print()
     return catch
 
 
@@ -71,7 +71,8 @@ def move_simulation():
                             i_tem += dx[dir]
                             j_tem += dy[dir]
                 sharks.append([i_tem, j_tem, speed, dir, size])
-    # print(sharks)
+
+    # 그자리에 자신보다 큰 상어가 있으면 그상어는 죽음 ㅠㅠ 죽고 더큰 상어로 대처됨
     for shark in sharks:
         if mini_map[shark[0]][shark[1]] == [0, 0, 0]:
             mini_map[shark[0]][shark[1]] = [shark[2], shark[3], shark[4]]

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06337991-14b1-402c-96de-3291247a3769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13913/13913_숨바꼭질.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13913/13913_숨바꼭질.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17143/17143_낚시왕.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17143/17143_낚시왕.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17143/17143_낚시왕.py" beforeDir="false" afterPath="$PROJECT_DIR$/17143/17143_낚시왕.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.13913_숨바꼭질">
+  <component name="RunManager" selected="Python.17143_낚시왕">
     <configuration name="13458_시험_감독" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,8 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.13913_숨바꼭질" />
         <item itemvalue="Python.17143_낚시왕" />
+        <item itemvalue="Python.13913_숨바꼭질" />
         <item itemvalue="Python.13458_시험_감독" />
         <item itemvalue="Python.2151_거울_설치" />
         <item itemvalue="Python.17837_새로운_게임" />
