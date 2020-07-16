@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06337991-14b1-402c-96de-3291247a3769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1890/1890_점프.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1890/1890_점프.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10282/10282_해킹.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10282/10282_해킹.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11650/11650_좌표_정렬하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11650/11650_좌표_정렬하기.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1427/1427_소트인사이드.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1427/1427_소트인사이드.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1547/1547_공.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1547/1547_공.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1963/1963_소수_경로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1963/1963_소수_경로.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +34,7 @@
   </component>
   <component name="ProjectId" id="1X48F4jmYvDcaeTzmHuCXTWMVJF" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SW Expert Academy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -42,8 +54,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1890_점프">
-    <configuration name="1325_효율적인_해킹" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.11650_좌표_정렬하기">
+    <configuration name="1063_킹" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1325" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1063" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1325/1325_효율적인_해킹.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1063/1063_킹.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1520_내리막길" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="11650_좌표_정렬하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1520" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11650" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1520/1520_내리막길.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11650/11650_좌표_정렬하기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1890_점프" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1427_소트인사이드" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +105,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1890" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1427" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1890/1890_점프.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1427/1427_소트인사이드.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1916_최소비용_구하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1547_공" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1916" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1547" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1916/1916_최소비용_구하기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1547/1547_공.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1939_중량제한" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1963_소수_경로" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1939" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1963" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1939/1939_중량제한.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1963/1963_소수_경로.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1890_점프" />
-        <item itemvalue="Python.1520_내리막길" />
-        <item itemvalue="Python.1916_최소비용_구하기" />
-        <item itemvalue="Python.1939_중량제한" />
-        <item itemvalue="Python.1325_효율적인_해킹" />
+        <item itemvalue="Python.11650_좌표_정렬하기" />
+        <item itemvalue="Python.1427_소트인사이드" />
+        <item itemvalue="Python.1963_소수_경로" />
+        <item itemvalue="Python.1547_공" />
+        <item itemvalue="Python.1063_킹" />
       </list>
     </recent_temporary>
   </component>
